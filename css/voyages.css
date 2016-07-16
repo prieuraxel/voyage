@@ -1,0 +1,81 @@
+ .circle {
+	opacity:0;
+      position: absolute;	  
+      background-color: red;      
+      width: 30px;
+      height: 30px;
+      border-radius: 200px;
+ }
+ .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%,-50%);
+      color: white;
+	  font-size: 0.8em;
+ }
+ 
+ .mypadding {
+	padding: 2px;
+ }
+ 
+ .hand {
+    cursor: pointer;
+}
+
+.circleTimeline {
+cursor: pointer;
+	xopacity:0;
+      position: absolute;	  
+      background-color: red;      
+      width: 10px;
+      height: 25px;
+      xborder-radius: 100px;
+ }
+ .textTimeline {
+      position: absolute;
+      xtop: 5px;
+      xleft: 1px;
+      xtransform:translate(-50%,-50%);
+      color: white;
+	  font-size: 0.7em;
+	    writing-mode:tb-rl;
+    xxx-webkit-transform:rotate(90deg);
+    xxx-moz-transform:rotate(90deg);
+    xxx-o-transform: rotate(90deg);
+    xxx-ms-transform:rotate(90deg);
+    xxxtransform: rotate(90deg);
+    xwhite-space:nowrap;
+    xdisplay:block;
+    xbottom:0;
+    xwidth:20px;
+    xheight:20px;
+ }
+ .textAnnee {      
+	  font-size: 0.7em;
+ }
+ 
+ .xxLVtr {
+xwidth: 100%;
+xdisplay: inline-table;
+}
+
+.xxLVtable{
+ height:500px; 
+}
+.xxLVtbody{
+  overflow-y: scroll;
+  height: 400px;
+  xwidth: 100%;
+  position: absolute;
+}
+
+#vistTAB>tbody>tr.active>td{
+    background-color: #B3F7EA;	 
+}
+
+#vdeoTAB>tbody>tr.active>td{
+    background-color: #F9F488;;
+	 
+}
+ 
